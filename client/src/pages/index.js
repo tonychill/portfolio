@@ -9,7 +9,6 @@ export default function Home(props) {
     <main className='ts-mw-1280 ts-mt-80'>
       <MainCta />
       <MainFeed />
-      {/* Testing git */}
     </main>
   );
 }
