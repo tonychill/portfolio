@@ -1,0 +1,5 @@
+- AWS API Docs: https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html
+- AWS Websocket Demo: https://www.youtube.com/watch?v=DzpGfyB0iKk
+- <(;-)>AWS Websocket Demo2: https://www.youtube.com/watch?v=blK5RsbD_jE
+- Socket.io, Node/Express Demo: https://www.youtube.com/watch?v=jD7FnbI76Hg
+- Socket.io Repo: https://github.com/bradtraversy/chatcord

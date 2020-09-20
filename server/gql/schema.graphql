@@ -1,0 +1,33 @@
+type Query {
+  articles: [Article]
+  projects: [Project]
+  article(id: ID!): Article
+  project(id: ID!): Project
+}
+type Mutations {
+  createProject(input: CreateProjectInput): Project
+}
+type Article {
+  id: ID!
+  title: String
+  summary: String
+  body: String
+}
+
+type Project {
+  id: ID!
+  name: String
+  description: String
+  relatedProjects: [Project]
+}
+
+input CreateProjectInput {
+  title: String
+  description: String
+}
+
+input CreateArticle {
+  title: String
+  summary: String
+  body: String
+}
