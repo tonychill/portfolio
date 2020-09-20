@@ -1,0 +1,20 @@
+{
+  "api": {
+    "invokeUrl": "https://5bltcq602h.execute-api.us-west-2.amazonaws.com/prod"
+  },
+  "cognito": {
+    "REGION": "us-east-1",
+    "USER_POOL_ID": "us-east-1_yhwM0UtsM",
+    "APP_CLIENT_ID": "56ek5g6u6pndmf65k1fbvmm212"
+  },
+  "build": {
+    "env": {
+      "CONTENTFUL_SPACE_ID": "86lev5oo3i85",
+      "CONTENTFUL_ACCESS_TOKEN": "oOhyexpsDnHKC0Z7tSAT-hmqFzsQDm-GdkT0Sjmd4I8"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "DOMAIN": "www.tony.global"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "tonyg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^3.0.8",
+    "bootstrap": "^4.4.1",
+    "contentful": "^7.14.4",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "serverless-next.js": "^1.9.10"
+  }
+}
